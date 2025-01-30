@@ -1,0 +1,16 @@
+SFR_09 현재 실행 순서
+download_sgd_from_KMA_API.py (데이터 수집집)
+
+    [download_sgd_from_KMA_API.py]
+        - rn,ta 등의 데이터를 얻을 수 있음.
+    
+    [check_sgd_file_size_1.py]
+        - 파일의 사이즈가 문제 없는지 검사
+
+    [check_data_file_2.py]
+        - 파일이 누락되었는지 검사
+
+    [check_0_filled_files_3.py]
+        - 파일의 0값 비율을 검사
+
+        
