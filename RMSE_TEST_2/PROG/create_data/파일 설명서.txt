@@ -1,0 +1,19 @@
+[create_data.py]
+
+데이터를 생성하는 파트임.
+rn_day, ta 등 원하는 변수를 입력해서 생성할 수 있고, 주의할 점은 lat lon과 같은 위도 경도 정보가 다이렉트로 주어지지 않기 때문에 조정이 필요함.
+그리고 start_date와 end_date를 통해 수집 데이터의 길이를 조절할 수 있음.
+
+저장 경로는  /home/papalio/test_research/RMSE_TEST_2/DATA
+
+
+
+[convert_sgd_to_obs_mkprism.py]
+
+수집한 sgd 데이터를 보간 작업을 통해 mkprism으로, 관측소(더미)정보와 매핑해 obs 데이터로 변환하는 작업의 파일임.
+
+[check_data.ipynb]
+
+이 파일은 변환 및 수집한 sgd, mkprism, obs 데이터들의 분포와 결측, 이상치 등을 체크하는 파트임.
+검사 항목으로는 다음과 같음
+ - 값의 분포(0, -9990, vailed value)
