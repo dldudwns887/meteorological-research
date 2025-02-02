@@ -1,0 +1,96 @@
+✅ SGD 데이터 파일 확인됨: /home/papalio/test_research/RMSE_TEST_2/DATA/SGD_TA/sfc_grid_ta_202001010000.nc
+
+📌 SGD 데이터 구조
+
+<xarray.Dataset> Size: 8MB
+Dimensions:  (ny: 2049, nx: 2049)
+Dimensions without coordinates: ny, nx
+Data variables:
+    data     (ny, nx) int16 8MB ...
+Attributes: (12/16)
+    title:         SFC GRID FILE
+    version:       0
+    product_type:  SFC_GRID_ta_
+    time:          [2020    1    1    0    0    0]
+    time_in:       [2023    9   10    5   28    1]
+    map_pro:       Lambert Conformal Conic Projection
+    ...            ...
+    map_slon:      126.0
+    map_slat:      38.0
+    grid_size:     0.5
+    grid_nx:       2049.0
+    grid_ny:       2049.0
+    stn_num:       1221.0
+
+
+🔹 변수 목록:
+   - data: ('ny', 'nx'), dtype=int16
+
+
+🔹 속성 정보:
+   - title: SFC GRID FILE
+   - version: 0
+   - product_type: SFC_GRID_ta_
+   - time: [2020    1    1    0    0    0]
+   - time_in: [2023    9   10    5   28    1]
+   - map_pro: Lambert Conformal Conic Projection
+   - map_nx: 2048.0
+   - map_ny: 2048.0
+   - map_sx: 880.0
+   - map_sy: 1540.0
+   - map_slon: 126.0
+   - map_slat: 38.0
+   - grid_size: 0.5
+   - grid_nx: 2049.0
+   - grid_ny: 2049.0
+   - stn_num: 1221.0
+
+
+🎉 SGD 데이터 구조 확인 완료!
+
+================================================================================
+✅ OBS 데이터 파일 확인됨: /home/papalio/test_research/RMSE_TEST_2/DATA/OBS_TA/obs_ta_202001010000.nc
+
+📌 OBS 데이터 구조
+
+<xarray.Dataset> Size: 204B
+Dimensions:      (station: 17)
+Coordinates:
+  * station      (station) <U2 136B '서울' '부산' '대구' '인천' ... '전남' '경북' '경남' '제주'
+Data variables:
+    temperature  (station) float32 68B ...
+
+
+🔹 변수 목록:
+   - temperature: ('station',), dtype=float32
+
+
+🔹 속성 정보:
+
+
+🎉 OBS 데이터 구조 확인 완료!
+
+================================================================================
+✅ MK-PRISM 데이터 파일 확인됨: /home/papalio/test_research/RMSE_TEST_2/DATA/MKPRISE_TA/mkprism_ta_202001010000.nc
+
+📌 MK-PRISM 데이터 구조
+
+<xarray.Dataset> Size: 34MB
+Dimensions:      (ny: 2049, nx: 2049)
+Coordinates:
+  * ny           (ny) int64 16kB 0 1 2 3 4 5 6 ... 2043 2044 2045 2046 2047 2048
+  * nx           (nx) int64 16kB 0 1 2 3 4 5 6 ... 2043 2044 2045 2046 2047 2048
+Data variables:
+    temperature  (ny, nx) float64 34MB ...
+
+
+🔹 변수 목록:
+   - temperature: ('ny', 'nx'), dtype=float64
+
+
+🔹 속성 정보:
+
+
+🎉 MK-PRISM 데이터 구조 확인 완료!
+
+================================================================================
