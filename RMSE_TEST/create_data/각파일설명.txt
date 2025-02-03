@@ -14,3 +14,4 @@ download_sgd_from_KMA_API.py (데이터 수집집)
         - 파일의 0값 비율을 검사
 
         
+연결테스트
