@@ -8,11 +8,12 @@ rn_day, ta 등 원하는 변수를 입력해서 생성할 수 있고, 주의할 
 
 
 
-[convert_sgd_to_obs_mkprism.py]
+ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ
 
+[convert_sgd_to_obs_mkprism.py] 폐기
 수집한 sgd 데이터를 보간 작업을 통해 mkprism으로, 관측소(더미)정보와 매핑해 obs 데이터로 변환하는 작업의 파일임.
 
-[check_data.ipynb]
+[check_data.ipynb] 폐기
 
 이 파일은 변환 및 수집한 sgd, mkprism, obs 데이터들의 분포와 결측, 이상치 등을 체크하는 파트임.
 검사 항목으로는 다음과 같음
